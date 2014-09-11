@@ -1,0 +1,257 @@
+.header
+{
+	background-color: rgba(0, 0, 0, 0.2);
+	border-bottom: 1px solid #ADADAD;
+    color: #FFFFFF;
+    line-height: 50px;
+    position:fixed;
+    width: 100%;
+    z-index: 5;
+	display:inline-block;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	font-weight: bold;
+	width:100%;
+	text-decoration:none;
+}
+.header a{
+    color: #00ff00;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.header .center a{
+	text-decoration:none;
+	font-size: 29px;
+	letter-spacing:02px;
+	font-variant:bold;
+	
+}
+.header .right a{
+	font-size: 10px;
+    padding: 7px;
+    text-align: end;
+    text-decoration: none;
+}
+
+.header .left{
+	float: left;
+    padding: 29px 0 0 56px;
+    position: absolute;
+    top: -31px;
+    width: 20%;
+}
+.header .right{
+	width:20%;
+	float:right;
+	text-align:end;
+	padding: 0 7px 0 0;
+}
+.header .center{
+	font-weight:900;
+	width:60%;
+	float:left;
+	text-align:center;
+	margin: 0 7px -54px 174px;
+	padding-left: 45px;
+}
+.header .right .sign{
+	background-color:skyblue;
+	
+}
+content {
+	width:100%;
+	height:100%;
+	color: #FFFFFF;
+    line-height: 50px;
+    position:relative;
+    height: 100%;
+    display:inline-block;
+	text-transform: uppercase;
+	font-variant: small-caps;
+	font-weight: bold;
+	text-align:center;
+	text-decoration:none;
+}
+.content .center #article {
+	background: url("/home/weblogicx/learning/webdeveloper/image/blue-modern-backgrounds.jpg");
+	background-repeat:no-repeat;
+    width:100%;
+    padding: 20px 0;
+    position: relative;
+    text-align: center;
+ }
+.content .center #article .label {
+	background-color: #000000;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 23px;
+    margin-bottom: 10px;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
+.content .video{
+	background: url("/home/weblogicx/learning/webdeveloper/image/back2.jpg");
+	background-repeat:no-repeat;
+    min-height: 400px;
+    width:100%;
+    padding: 60px 0;
+    position: relative;
+}
+.content .image3{
+	background: url("/home/weblogicx/learning/webdeveloper/image/background1.jpg");
+	background-repeat:no-repeat;
+    min-height: 500px;
+    width:100%;
+    top: -46px;
+    position: relative;
+    text-align:center;
+    text-decoration:none;
+}
+.content .image3 .label {
+	background-color: #000000;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 6px 14px 3px 20px;
+
+}
+.content .image3 a {
+	text-decoration:none;
+}
+.content .image3 h3{
+	font-size:24px;
+	color:violet;
+	text-transform: uppercase;
+}
+.content .image3 .p1{
+	color:violet;
+}
+.content .image3 form {
+	padding: 200px 16px 5px 67px;
+    text-align: center;
+}
+form{
+	margin:0;
+}
+.content .image3 form .city-search a {
+    color: skyblue;
+    font-size: 20px;
+    padding: 0;
+}
+.content .image3 .view{
+	color:violet;
+}
+
+.footer{
+	width:100%;
+	height:100px;
+	position:relative;
+	display:inline-block;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.footer .up{
+	height:50px;
+	width:100%;
+}
+.footer .down{
+	border:2px soild green;
+	float:right;
+	height:50px;
+	width:100%;
+	text-align:right;
+	background-color:black;
+	text-align:end;
+	padding: 10px 20px ;
+}
+.footer .down #nav a i{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 80px;
+    color: #000000;
+    display: inline-block;
+    font-size: 15px;
+    height: 20px;
+    margin-right: 9px;
+    padding-top: 1%;
+    text-align: center;
+    width: 26px;
+	
+}
+.footer .up .left #nav a i{
+	background: none repeat scroll 0 0 #000000;
+    border-radius: 80px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 10px;
+    height: 15px;
+    margin-right: 9px;
+    padding-top: 2%;
+    text-align: center;
+    width: 26px;
+} 
+.footer .up .left{
+	background-color:white;
+	height:50px;
+	width:30%;
+	float:left;
+	padding: 20px;
+	color:white;
+}
+.footer .up .center{
+	height:50px;
+	width:70%;
+	float:left;
+	text-align:center;
+	margin: -142px 0 0 190px;
+}
+.footer .up .center a{
+	text-decoration:none;
+}
+.footer .up .left #nav a:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #070716;
+    color: #070716;
+}
+.footer .up .left # nav a:active, a:hover {
+    outline: 0 none;
+}
+.footer .up .center #sign {
+	text-align:center;
+	margin-top:-23px;
+	background-color:skyblue;
+}
+.footer .up .center #center_up{
+	color: black;
+    font-size: 17px;
+    letter-spacing: 6px;
+    line-height: 71px;
+    padding: 0;
+}
+.footer .up .center #center_up a{
+	color:black;
+}
+.footer .up .center #center_down {
+	font-size: 8px;
+    letter-spacing: 2px;
+    line-height: 0;
+    padding: 0;
+}
+.footer .up .center #center_down a{
+	color:gray;
+}
+.footer .up .center .english {
+	font-size:14px;
+	color:#006400;
+	font-weight:bold;
+	line-height:50px;
+}
+.footer .up .left #nav a i a i:hover {
+opacity: .7;
+}

@@ -1,0 +1,25 @@
+.body_header
+{
+border: 2px solid;
+border-radius: 25px;
+display: inline-block;
+margin-left:0%;
+margin-right:0%;
+margin-top:0%;
+margin-bottom:0%;
+padding:0;
+border-color:black;
+text-transform: uppercase;
+font-variant: small-caps;
+font-weight: bold;
+line-height:9px;
+background-color:balck;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-image: url('/home/weblogicx/Learn_webdeveloper/home-hero-2-1440-900.jpg');
+background-position:center;
+background-origin: content-box;
+}
+
+
+
